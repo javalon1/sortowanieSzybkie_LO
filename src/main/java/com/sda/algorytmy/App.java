@@ -53,7 +53,7 @@ public class App
     {
 
         int[] tab = {2,4,6,-11,3,2,4,6,2,454346,436,346,3434,23423,4232,2};
-
+        System.out.println(suma(tab));
        quicksort(tab, 0,tab.length-1);
        for (int i = 0; i<tab.length; i++){
            System.out.println(tab[i]);
